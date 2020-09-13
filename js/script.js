@@ -29,7 +29,7 @@ function Inclusao() {
       'nome_aluno': document.getElementById("nome").value
      };
 
-    pageurl = "excluir_aluno.php";
+    pageurl = "php/excluir_aluno.php";
 
     $.ajax({
          url: pageurl,
@@ -55,7 +55,7 @@ function Inclusao() {
       'curso_aluno': document.getElementById("curso").value
      };
 
-    pageurl = "alterar_aluno.php";
+    pageurl = "php/alterar_aluno.php";
 
     $.ajax({
          url: pageurl,
@@ -78,7 +78,7 @@ function Inclusao() {
       'nome_aluno': document.getElementById("nome").value
      };
 
-     pageurl = "consultar_aluno.php";
+     pageurl = "php/consultar_aluno.php";
 
      $.ajax({
          url: pageurl,
